@@ -26,7 +26,7 @@ public class Controller {
     public ListView<String> cloudListView;
     public ProgressBar operationProgress;
 
-    private String rootDir = "D:\\GeekUniversity\\MyDropbox\\ClientStorage";
+    private String rootDir = "/client_storage";
     private String userDir;
     private List<String> cloudFileList;
 
