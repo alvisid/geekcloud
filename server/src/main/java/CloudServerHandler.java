@@ -16,7 +16,7 @@ import java.util.List;
 public class CloudServerHandler extends ChannelInboundHandlerAdapter {
 
     private String login;
-    private String rootDir = "D:\\GeekUniversity\\MyDropbox\\ServerStorage";
+    private String rootDir = "server_storage";
     private String userDir;
 
     public String getLogin() {
